@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="methods" name="Suite">
+  <test thread-count="3" parallel="methods" name="Test">
+    <classes>
+     <!--   <class name="Attributes.Attribute_grp"/>
+      <class name="Attributes.Attribute_Priority"/> -->
+      <class name="Attributes.Attributes_enab"/>
+      <class name="Attributes.Attributes_Describe"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+ 
+</suite> <!-- Suite -->
